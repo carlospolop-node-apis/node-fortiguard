@@ -31,6 +31,6 @@ fortiguard.checkDomain(domain).then(function(result){
 /*
 Output examples
 { isBlacklisted: true, title: 'Malicious Websites' }
-{ isBlacklisted: false, title: 'Malicious Host' }
+{ isBlacklisted: false, title: 'Not malicious' }
 */
 ```

@@ -2,7 +2,7 @@ const request = require('request');
 
 
 function checkIP(ip){
-    var fortObj = { isBlacklisted: false, title: "Malicious Host"};
+    var fortObj = { isBlacklisted: false, title: "Not malicious"};
     var promise = new Promise(function(resolve, reject) {
 
         var url = "https://fortiguard.com/search?q="+ip+"&engine=8";
